@@ -48,7 +48,7 @@ export default function Home() {
       {/* Banner */}
       <div className="relative w-full h-44 bg-gradient-to-r from-gray-800 to-gray-600 shadow-lg">
         <Image
-          src="/banner-image.jpg" // Replace with the actual banner image
+          src="/26426.jpg" // Replace with the actual banner image
           alt="Banner"
           layout="fill"
           objectFit="cover"
@@ -89,7 +89,7 @@ export default function Home() {
           Managing Director
         </p>
         <div className="flex justify-center gap-4 pb-2 mt-8">
-          <a href="/YaseenMirshal.vcf" download="Yaseen_Mirshal_Contact">
+          <a href="/GafoorRanzom.vcf" download="Gafoor_Ranzom_Contact">
             <Button text="Save Contact" isPrimary icon={<FaDownload />} />
           </a>
         </div>
@@ -124,7 +124,7 @@ export default function Home() {
         </div>
 
         {/* Companies Section */}
-        <div className="mt-12">
+        <div className="  mt-12">
           <h2
             className="text-2xl font-semibold mb-6 text-gray-800"
             data-aos="fade-right"
@@ -142,7 +142,7 @@ export default function Home() {
                 href={company.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:scale-105 transition-transform duration-300"
+                className="hover:scale-105   transition-transform duration-300"
               >
                 <CompanyCard name={company.name} logo={company.logo} />
               </a>
@@ -151,11 +151,7 @@ export default function Home() {
         </div>
 
         {/* Buttons */}
-        <div className="flex justify-center gap-4 pb-2 mt-8">
-          <a href="/YaseenMirshal.vcf" download="Yaseen_Mirshal_Contact">
-            <Button text="Save Contact" isPrimary icon={<FaDownload />} />
-          </a>
-        </div>
+       
       </div>
 
       {/* Footer */}
@@ -192,7 +188,7 @@ const SocialLink = ({ href, icon }) => (
 
 // Company Card Component
 const CompanyCard = ({ name, logo }) => (
-  <div className="flex flex-col items-center w-40 h-36 bg-white/50 backdrop-blur-md p-4 rounded-lg shadow-md">
+  <div className="flex flex-col items-center w-40 h-36 bg-white backdrop-blur-md p-4 rounded-lg shadow-md">
     <Image
       src={logo}
       alt={name}
