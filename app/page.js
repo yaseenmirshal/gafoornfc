@@ -96,8 +96,8 @@ export default function Home() {
         {/* Contact Cards */}
         <div
           className="flex flex-col items-center space-y-4 mb-8"
-          data-aos="fade-up"
-          data-aos-delay="400"
+          // data-aos="fade-up"
+          // data-aos-delay="400"
         >
           <ContactCard
             href="tel:+919700222111"
@@ -114,8 +114,8 @@ export default function Home() {
         {/* Social Media Icons */}
         <div
           className="flex justify-center gap-5 flex-wrap mb-8"
-          data-aos="fade-up"
-          data-aos-delay="600"
+          // data-aos="fade-up"
+          // data-aos-delay="600"
         >
           <SocialLink icon={<FaWhatsapp />} href="https://wa.me/+919700222111" />
           <SocialLink icon={<FaInstagram />} href="https://www.instagram.com/gafoorranzom/" />
@@ -127,13 +127,13 @@ export default function Home() {
         <div className="  mt-12">
           <h2
             className="text-2xl font-semibold mb-6 text-gray-800"
-            data-aos="fade-right"
+            // data-aos="fade-right"
           >
             Companies
           </h2>
           <div
             className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4"
-            data-aos="fade-up"
+            // data-aos="fade-up"
             data-aos-delay="800"
           >
             {companies.map((company, index) => (
