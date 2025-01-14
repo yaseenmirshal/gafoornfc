@@ -64,7 +64,7 @@ export default function Home() {
           data-aos="zoom-in"
         >
           <Image
-            src="/gafoornew.jpeg"
+            src="/gafoorcrop.png"
             alt="Profile"
             width={144}
             height={144}
