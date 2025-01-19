@@ -10,7 +10,6 @@ import {
   FaWhatsapp,
   FaPhoneAlt,
   FaEnvelope,
-  FaBehance,
   FaDownload,
 } from 'react-icons/fa';
 
@@ -93,23 +92,26 @@ export default function Home() {
             <Button text="Save Contact" isPrimary icon={<FaDownload />} />
           </a>
         </div>
+       
         {/* Contact Cards */}
-        <div
-          className="flex flex-col items-center space-y-4 mb-8"
-          // data-aos="fade-up"
-          // data-aos-delay="400"
-        >
-          <ContactCard
-            href="tel:+919700222111"
-            icon={<FaPhoneAlt size={20} />}
-            text="+91 9700222111"
-          />
-          <ContactCard
-            href="mailto:infogafoor@gmail.com"
-            icon={<FaEnvelope size={20} />}
-            text="infogafoor@gmail.com"
-          />
-        </div>
+<div className="flex flex-col items-center space-y-4 mb-8">
+  <ContactCard
+    href="tel:+919700222111"
+    icon={<FaPhoneAlt size={20} />}
+    text="+91 9700222111 (India)"
+  />
+  <ContactCard
+    href="tel:+971544454223"
+    icon={<FaPhoneAlt size={20} />}
+    text="+971 54 445 4223 (UAE)"
+  />
+  <ContactCard
+    href="mailto:infogafoor@gmail.com"
+    icon={<FaEnvelope size={20} />}
+    text="infogafoor@gmail.com"
+  />
+</div>
+
 
         {/* Social Media Icons */}
         <div
@@ -119,8 +121,8 @@ export default function Home() {
         >
           <SocialLink icon={<FaWhatsapp />} href="https://wa.me/+919700222111" />
           <SocialLink icon={<FaInstagram />} href="https://www.instagram.com/gafoorranzom/" />
-          <SocialLink icon={<FaTwitter />} href="https://x.com/yaseen_mirshal" />
-          <SocialLink icon={<FaFacebook />} href="https://www.facebook.com/gafoor/" />
+          <SocialLink icon={<FaTwitter />} href="https://x.com" />
+          <SocialLink icon={<FaFacebook />} href="https://www.facebook.com/gafoor.ranzom" />
         </div>
 
         {/* Companies Section */}
@@ -222,4 +224,5 @@ const companies = [
   { name: 'Ranzom Fragrances', logo: '/ranzomfrag logo.png', url: 'https://www.instagram.com/ranzomfragrance?igsh=MWpxaG5tcjZpYm9rYw==' },
   { name: 'Jaza Perfumes', logo: '/jazalogo4.png', url: 'https://jazaperfumes.com' },
   { name: 'My Touch', logo: '/mytouch logo.png', url: 'https://www.instagram.com/mytouchgold?igsh=dzg2dmh0aGY2a2M0' },
+  { name: 'GSA Dental Clinic', logo: '/gsa.png', url: 'https://www.instagram.com/gsadentals/' }
 ];
