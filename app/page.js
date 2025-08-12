@@ -159,7 +159,8 @@ export default function Home() {
       {/* Footer */}
       <p className="text-center text-gray-500 text-sm mt-6 pb-5">
         Powered by{' '}
-        <span className="font-bold text-gray-700">YMInnovation</span>
+        <a href='https://www.instagram.com/ranzomtech/'>
+        <span className="font-bold text-gray-700">RanzomTech</span></a>
       </p>
     </div>
   );
@@ -223,6 +224,7 @@ const companies = [
   { name: 'Ranzom Developers', logo: '/GAFOOR RANZOM.png', url: 'https://ranzom.in' },
   { name: 'Ranzom Fragrances', logo: '/ranzomfrag logo.png', url: 'https://www.instagram.com/ranzomfragrance?igsh=MWpxaG5tcjZpYm9rYw==' },
   { name: 'Jaza Perfumes', logo: '/jazalogo4.png', url: 'https://jazaperfumes.com' },
+  { name: 'RanzomTech', logo: '/ranzomtech.png', url: 'https://ranzomtech.com' },
   { name: 'My Touch', logo: '/mytouch logo.png', url: 'https://www.instagram.com/mytouchgold?igsh=dzg2dmh0aGY2a2M0' },
   { name: 'GSA Dental Clinic', logo: '/gsa.png', url: 'https://www.instagram.com/gsadentals/' }
 ];
