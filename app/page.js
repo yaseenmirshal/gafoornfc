@@ -219,7 +219,7 @@ const Button = ({ text, isPrimary, icon }) => (
   </button>
 );
 
-// Example Companies Data
+// Example Companies 
 const companies = [
   { name: 'Ranzom Developers', logo: '/GAFOOR RANZOM.png', url: 'https://ranzom.in' },
   { name: 'Ranzom Fragrances', logo: '/ranzomfrag logo.png', url: 'https://www.instagram.com/ranzomfragrance?igsh=MWpxaG5tcjZpYm9rYw==' },
